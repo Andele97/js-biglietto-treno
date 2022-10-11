@@ -27,8 +27,8 @@ else if (eta > overAdult) {
 // STAMPA
 
 let outEta = `${eta}`;
-let outKm = `${km}`;
-let outPrice = `${prezzoFinale}`;
+let outKm = `${km} Km`;
+let outPrice = `${prezzoFinale.toFixed(2)} €`;
 
 document.getElementById('prezzoFinale').innerHTML += outPrice;
 document.getElementById('eta').innerHTML += outEta;
